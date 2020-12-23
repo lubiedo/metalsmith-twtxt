@@ -105,4 +105,4 @@ dist
 .tern-port
 
 # Mocha fixtures
-test/fixtures/*
+test/fixtures/build/*
