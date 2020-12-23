@@ -1,0 +1,16 @@
+{
+  "name": "metalsmith-twtxt",
+  "version": "1.0.0",
+  "description": "twtxt feed generator plugin for Metalsmith",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "metalsmith",
+    "metalsmith-plugin",
+    "twtxt"
+  ],
+  "author": "lubiedo",
+  "license": "MIT"
+}
