@@ -4,7 +4,7 @@
   "description": "twtxt feed generator plugin for Metalsmith",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "keywords": [
     "metalsmith",
@@ -12,5 +12,10 @@
     "twtxt"
   ],
   "author": "lubiedo",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "metalsmith": "^2.3.0",
+    "metalsmith-collections": "^0.9.0",
+    "mocha": "^8.2.1"
+  }
 }
